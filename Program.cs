@@ -14,6 +14,11 @@ namespace DataStructureUsingHashTables
             Console.WriteLine("\n UC2: ");
             WordFrequency freq1 = new WordFrequency();
             freq1.FreqPara();
+
+            Console.WriteLine("\n UC3: ");
+            WordFrequency rm = new WordFrequency();
+            rm.Remove();
+
         }
 
     }
