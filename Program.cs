@@ -8,8 +8,12 @@ namespace DataStructureUsingHashTables
         {
             Console.WriteLine("Welcome to data structure using hash table ");
             Console.WriteLine("UC1: ");
-            UC1WordFrequency freq = new UC1WordFrequency();
+            WordFrequency freq = new WordFrequency();
             freq.Frequency();
+
+            Console.WriteLine("\n UC2: ");
+            WordFrequency freq1 = new WordFrequency();
+            freq1.FreqPara();
         }
 
     }
